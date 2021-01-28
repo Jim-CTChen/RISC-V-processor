@@ -1,0 +1,38 @@
+I     FORMAT  OPCODE    
+JAL   UJ      1101111   
+JALR  I       1100111   
+BEQ   SB      1100011   
+BNE   SB      1100011   
+LD    I       0000011   
+SD    S       0100011
+ADDI  I       0010011
+SLTI  I       0010011
+XORI  I       0010011
+ORI   I       0010011
+ANDI  I       0010011
+SLLI  I       0010011
+SRLI  I       0010011
+SRAI  I       0010011
+ADD   R       0110011
+SUB   R       0110011
+SLL   R       0110011
+SLT   R       0110011
+XOR   R       0110011
+SRL   R       0110011
+SRA   R       0110011
+OR    R       0110011
+AND   R       0110011
+
+
+ALU
+
+ADD 0000
+SUB 1000
+SLL 0001
+SLT 0010
+XOR 0100
+SRL 0101
+SRA 1101
+OR  0110
+AND 0111
+
